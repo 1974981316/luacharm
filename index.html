@@ -1,0 +1,26 @@
+<!doctype html>
+	<head> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="stylesheet" href="mdui-1.0.1/css/mdui.min.css"> 
+		<script src="mdui-1.0.1/js/mdui.min.js"></script> 
+		<link rel="shortcut icon" href="favicon.png" type="image/x-icon"> 
+		<title>我的网站</title> 
+	</head> 
+	<body class="mdui-theme-primary-white mdui-theme-accent-blue" style="padding-top:150px; padding-left:8px; "> 
+		<div class="bg-div-class" id="bg">
+				<div class="mdui-typo-display-1" style="margin-bottom:10px;">
+					LuaCharm
+				</div> 
+				<div class="mdui-typo-body-1" style="margin-bottom:10px; color: grey;">
+					一个Lua编辑器
+				</div>
+         <button class="mdui-btn mdui-color-theme-accent mdui-ripple" onclick="openUrl('./luacharm/apk/luacharm-latest.apk')">下载</button> 
+           <button class="mdui-btn mdui-color-theme-accent mdui-ripple" onclick="openUrl('./luacharm/apk')">找旧版</button> 
+		</div>  
+	</body>
+   	<script type="text/javascript">
+		function openUrl(url){
+			window.open(url);
+		}
+	</script>
+</html>
